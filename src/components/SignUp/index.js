@@ -2,7 +2,8 @@
 import React, { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom'
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth } from '../Firebase/firebaseConfig';
+import { auth, user } from '../Firebase/firebaseConfig';
+import { setDoc } from 'firebase/firestore';
 
 const Signup = (props) => {
     const navigate = useNavigate();
@@ -17,14 +18,19 @@ const Signup = (props) => {
     const [error, setError] = useState('')
 
     const handleChange = e => {
-        setLoginData({...loginData, [e.target.id]: e.target.value });
+        setLoginData({ ...loginData, [e.target.id]: e.target.value });
     }
 
     const handleSubmit = e => {
         e.preventDefault();
-        const { email, password } = loginData;
+        const { email, password, pseudo } = loginData;
         createUserWithEmailAndPassword(auth, email, password)
-            .then(user => {
+            .then(authUser => {
+                return setDoc(user(authUser.user.uid), {
+                    pseudo, email
+                })
+            })
+            .then(() => {
                 setLoginData({ ...data });
                 navigate('/welcome');
             })
@@ -50,9 +56,9 @@ const Signup = (props) => {
                 <div className="formBoxRight">
                     <div className="formContent">
 
-                    {errorMsg}
+                        {errorMsg}
 
-                    <h2>Inscription</h2>
+                        <h2>Inscription</h2>
                         <form onSubmit={handleSubmit}>
                             <div className="inputBox">
                                 <input onChange={handleChange} value={pseudo} type="text" id="pseudo" autoComplete="off" required />
