@@ -6,158 +6,158 @@ export const QuizMarvel = [
             debutant: [
                 {
                     id: 0,
-                    question: "De quelle équipe fait partie Iceman?",
+                    question: "Dans quel pays s'est déroulée la Coupe du Monde 2010 ?",
                     options: [
-                        "The X-Men",
-                        "The Fantastic Four",
-                        "The Invaders",
-                        "The Liberators"
+                        "Brésil",
+                        "France",
+                        "Afrique du Sud",
+                        "Japon"
                     ],
-                    answer: "The X-Men",
+                    answer: "Afrique du Sud",
                     heroId: 1009362
                 },
                 {
                     id: 1,
-                    question: "Dans les X-Men, quelle substance constitue le squelette de Wolverine ?",
+                    question: "Quelles équipes ont été promues en Ligue 1 Uber Eats pour la saison 2020-2021 ?",
                     options: [
-                        "Cavorite",
-                        "Vibranium",
-                        "Adamantium",
-                        "Neutronium"
+                        "Lens et Le Havre",
+                        "Lorient et Auxerre",
+                        "Lorient et Lens",
+                        "Monaco et Toulouse"
                     ],
-                    answer: "Adamantium",
+                    answer: "Lorient et Lens",
                     heroId: 1009718
                 },
                 {
                     id: 2,
-                    question: "Quel est le nom de Spider-Man, apparu pour la première fois en 1962 ?",
+                    question: "En 2017, pour quel montant record, Neymar est-il transféré à Paris ?",
                     options: [
-                        "Tom Parker",
-                        "John Parker",
-                        "Peter Parker",
-                        "Alan Parker"
+                        "139 millions d'Euros",
+                        "186 millions d'Euros",
+                        "222 Millions d'euros",
+                        "243 Millions d'euros"
                     ],
-                    answer: "Peter Parker",
+                    answer: "222 Millions d'euros",
                     heroId: 1009610
                 },
                 {
                     id: 3,
-                    question: "Comment s'appelait Wolverine quand il était cavalier d'Apocalypse?",
+                    question: "Quel joueur allemand a inscrit 16 buts en phase finale de Coupe du monde ?",
                     options: [
-                        "Rage",
-                        "Death",
-                        "Destruction",
-                        "Oblivion"
+                        "Miroslav Klose",
+                        "Manuel Neue",
+                        "Marcos Reus",
+                        "Arjen Robben"
                     ],
-                    answer: "Death",
+                    answer: "Miroslav Klose",
                     heroId: 1009718
                 },
                 {
                     id: 4,
-                    question: "Quel super-héros ne se sépare jamais de son marteau forgé par les nains ?",
+                    question: "Quels clubs ont dominé l'Europa League entre 2010 et 2015 ?",
                     options: [
-                        "Bizarro",
-                        "Flash",
-                        "Venom",
-                        "Thor"
+                        "Italiens",
+                        "Belges",
+                        "Allemands",
+                        "Espagnols"
                     ],
-                    answer: "Thor",
+                    answer: "Espagnols",
                     heroId: 1009664
                 },
                 {
                     id: 5,
-                    question: "Quelle couleur est associée à Hulk ?",
+                    question: "Qui a été élu en 2013 meilleur joueur de la Coupe des Confédérations ?",
                     options: [
-                        "Le jaune",
-                        "Le rouge",
-                        "Le vert",
-                        "Le bleu"
+                        "Hazard",
+                        "Cavani",
+                        "Ibrahimovic",
+                        "Neymar"
                     ],
-                    answer: "Le vert",
+                    answer: "Neymar",
                     heroId: 1009351
                 },
                 {
                     id: 6,
-                    question: "Quel super-héros ressemble à un être de pierre ?",
+                    question: "En quelle année, le club de Monaco a-t-il remporté le championnat de France de football à la place du PSG ?",
                     options: [
-                        "Plastic Man",
-                        "The Thing",
-                        "Hawkman",
-                        "Superboy"
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017"
                     ],
-                    answer: "The Thing",
+                    answer: "2017",
                     heroId: 1009662
                 },
                 {
                     id: 7,
-                    question: "De qui Edwin Jarvis est-il le majordome?",
+                    question: "Dans quel club a été transféré Wahbi Khazri en 2018 ?",
                     options: [
-                        "Bruce Wayne",
-                        "Charles Xavier",
-                        "Tony Stark",
-                        "Henry Steven"
+                        "Stade Rennais",
+                        "As Saint Etienne",
+                        "PSG",
+                        "Bordeaux"
                     ],
-                    answer: "Tony Stark",
+                    answer: "As Saint Etienne",
                     heroId: 1009368
                 },
                 {
                     id: 8,
-                    question: "Quel super-héros porte un costume inspiré du drapeau américain ?",
+                    question: "Lors de la Coupe du Monde de Football féminin de 2019, jusqu'où est allée l'équipe France ?",
                     options: [
-                        "Tigra",
-                        "Blade",
-                        "Iron Man",
-                        "Captain America"
+                        "1/8 de finale",
+                        "1/4 de finale",
+                        "1/2 finale",
+                        "Finale"
                     ],
-                    answer: "Captain America",
+                    answer: "1/4 de finale",
                     heroId: 1009220
                 },
                 {
                     id: 9,
-                    question: "Y compris ses pouces, combien de doigts sur les deux mains possède The Thing?",
+                    question: "Quel sélectionneur a été filmé en train de manger ses crottes de nez en Coupe du Monde 2010 ?",
                     options: [
-                        8,
-                        6,
-                        10,
-                        4
+                        "Stefan Reisch",
+                        "Franz Beckenbauer",
+                        "Sepp Herberger",
+                        "Joachim Low"
                     ],
-                    answer: 8,
+                    answer: "Joachim Low",
                     heroId: 1009662
                 }
             ],
             "confirme": [
                 {
                     id: 0,
-                    question: "Qui est Logan dans la bande dessinée de Marvel Comics 'X-Men' ?",
+                    question: "Quel pays a affronté la France lors de la finale de la Coupe du Monde de Foot 2018 ?",
                     options: [
-                        "Cyclope",
-                        "Colossus",
-                        "Wolverine",
-                        "Caliban"
+                        "Croatie",
+                        "Angleterre",
+                        "Belgique",
+                        "Allemagne"
                     ],
-                    answer: "Wolverine",
+                    answer: "Croatie",
                     heroId: 1009718
                 },
                 {
                     id: 1,
-                    question: "Quel super héros est intéressé par Sue Storm?",
+                    question: "Dans lequel de ces clubs le défenseur Adil Rami n'a-t-il pas joué ?",
                     options: [
-                        "X-Men",
-                        "Illuminati",
-                        "Spider-Man",
-                        "Namor"
+                        "Lille",
+                        "Cologne",
+                        "Valence",
+                        "Seville"
                     ],
-                    answer: "Namor",
+                    answer: "",
                     heroId: 1009466
                 },
                 {
                     id: 2,
-                    question: "Quel humain devient surpuissant grâce à une armure de haute technologie ?",
+                    question: "Quel joueur est devenu à 26 ans deuxième meilleur buteur de l'histoire du Mexique ?",
                     options: [
-                        "Cyclope",
-                        "Iron Man",
-                        "Wolverine",
-                        "Thor"
+                        "Villa",
+                        "Chicharito",
+                        "Alonso",
+                        "Silvera"
                     ],
                     answer: "Iron Man",
                     heroId: 1009368
